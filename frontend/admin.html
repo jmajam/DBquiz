@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Admin Screen</title>
+</head>
+
+<body>
+<div id="questions">
+    <ul id="qList">
+        <li id="q1">
+            <form class="quoteForm q1">
+                <textarea rows = "5" cols = "40" name="quote" class="quote">
+                </textarea>
+                <textarea rows = "5" cols = "15" name="name" class="source">
+                </textarea>
+                <input type="button" value="delete" class="delete q1" onclick="remove('q1')">
+                <hr>
+            </form>
+        </li>
+    </ul>
+
+</div>
+<input type="button" value="Add new quote" id="add">
+
+<input type="button" value="Save all" id="save">
+<input type="button" value="BACK" id="back">
+</body>
+</html>
+<script src="admin.js">
+
+</script>
